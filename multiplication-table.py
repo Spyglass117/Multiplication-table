@@ -24,3 +24,9 @@ Height of multiplication table: 8
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
+n = 1
+
+while width > 0:
+    print ("{0:>3}".format(n), end = " ")
+    n = n + 1
+    width = width - 1
