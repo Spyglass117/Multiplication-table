@@ -24,21 +24,23 @@ Height of multiplication table: 8
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
+width1 = width
+
 n = 1
 check = 1
+k = 2
 
-while height > 0:
-    if check == 1:
-        check = check + 1
-        while width > 1:
-            print ("{0:>3}".format(n), end = " ")
-            n = n + 1
-            width = width - 1
-        print ("{0:>3}".format(n))
+"""
+while width > 1:
+    print ("{0:>3}".format(n), end = " ")
+    n = n + 1
+    width = width - 1
+print ("{0:>3}".format(n))
+"""
         
-    else:
-        while width > 1:
-            print ("{0:>3}".format(n), end = " ")
+while height > 0:
+    while width1 > 1:
+            print ("{0:>3}".format(n*k), end = " ")
             n = n + 1
-            width = width - 1
+            width1 = width1 - 1
     height = height - 1
