@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Me
+Credit: Walt, Mr. Dennison, A tutorial on github
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
