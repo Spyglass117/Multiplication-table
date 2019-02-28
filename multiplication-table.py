@@ -26,4 +26,5 @@ height = int(input("Height of multiplication table: "))
 
 for row in range (1, width+1):
     for column in range (1, height+1):
-        print(row*column)
+        print("{0:>3}".format(row*column), end = " ")
+    print()
